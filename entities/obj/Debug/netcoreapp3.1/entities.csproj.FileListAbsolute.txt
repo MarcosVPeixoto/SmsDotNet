@@ -1,0 +1,9 @@
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\bin\Debug\netcoreapp3.1\entities.deps.json
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\bin\Debug\netcoreapp3.1\entities.dll
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\bin\Debug\netcoreapp3.1\entities.pdb
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\obj\Debug\netcoreapp3.1\entities.csprojAssemblyReference.cache
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\obj\Debug\netcoreapp3.1\entities.csproj.CoreCompileInputs.cache
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\obj\Debug\netcoreapp3.1\entities.AssemblyInfoInputs.cache
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\obj\Debug\netcoreapp3.1\entities.AssemblyInfo.cs
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\obj\Debug\netcoreapp3.1\entities.dll
+C:\Users\Marcos Vinicius\Documents\Pitang\Treinamento ONS\SmsDotNet\entities\obj\Debug\netcoreapp3.1\entities.pdb
