@@ -2,27 +2,24 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace entities.models
+namespace SmsDotNet.Entities
 {
     class MessageModel
     {
-        [Key]
-        public int id { get; set; }
+        [ForeignKey("User")]
+        public int IdOwner { get; set; }
+        public UserModel Owner { get; set; }
 
         [ForeignKey("User")]
-        public int idOwner { get; set; }
-        public UserModel owner { get; set; }
-
-        [ForeignKey("User")]
-        public int idTarget { get; set; }
-        public UserModel target { get; set; }
+        public int IdTarget { get; set; }
+        public UserModel Target { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório")]
-        public string message { get; set; }
+        public string Message { get; set; }
 
-        public ReadableBy status { get; set; }
+        public ReadableBy Status { get; set; }
 
-        public DateTime date { get; set; }
+        public DateTime Date { get; set; }
     }
 
     enum ReadableBy

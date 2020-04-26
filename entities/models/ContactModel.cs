@@ -1,19 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace entities.models
+namespace SmsDotNet.Entities
 {
-    class ContactModel
+    class ContactModel : AuditModel
     {
-        [Key]
-        public int id { get; set; }
-
         [ForeignKey("User")]    
-        public int idOwner { get; set; }
-        public UserModel owner { get; set; }
+        public int IdOwner { get; set; }
+        public UserModel Owner { get; set; }
 
         [ForeignKey("User")]
-        public int idTarget { get; set; }
-        public UserModel target { get; set; }
+        public int IdTarget { get; set; }
+        public UserModel Target { get; set; }
     }
 }

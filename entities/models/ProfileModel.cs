@@ -2,13 +2,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Dynamic;
 
-namespace entities.models
+namespace SmsDotNet.Entities
 {
     class ProfileModel
     {
-        [Key]
-        public int id { get; set; }
-
         [ForeignKey("User")]
         public int idOwner { get; set; }
         public UserModel owner { get; set; }

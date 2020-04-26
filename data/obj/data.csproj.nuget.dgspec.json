@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\data.csproj": {}
+    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\data.csproj": {
+    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\data.csproj",
-        "projectName": "data",
-        "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\data.csproj",
+        "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj",
         "packagesPath": "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\obj\\",
         "projectStyle": "PackageReference",
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\entities.csproj": {
-                "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\entities.csproj"
+              "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj"
               }
             }
           }
@@ -70,12 +70,12 @@
         }
       }
     },
-    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\entities.csproj": {
+    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\entities.csproj",
-        "projectName": "entities",
-        "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\entities.csproj",
+        "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\obj\\",
         "projectStyle": "PackageReference",

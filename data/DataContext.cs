@@ -1,5 +1,6 @@
-using entities.models;
+
 using Microsoft.EntityFrameworkCore;
+using SmsDotNet.Entities;
 
 namespace SmsDotNet.Data
 {

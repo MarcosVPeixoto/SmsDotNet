@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqLz89zLlt+q/04KVFwzj7vZBoBCAAsBHAiXqqJrQYhQNJQNl/hVeO8mY5bxz9ZZjlziy8nALBPckyZuon+5yQ==",
+  "dgSpecHash": "8Sg9UfeSOkl+W/U3aKK19a8FBrxtTyZV3fJWocFNuTDWGAu39FSr4k52j1KNdkafunkQ/qGYp5hcS6LRGaH6sQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\auth\\auth.csproj",
+  "projectFilePath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\auth\\Auth.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

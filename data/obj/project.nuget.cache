@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ir56S/L1+VxkTQUpi/424QONJ39+Zmmu0gg/qZpt9IoOZDim1vjYg9wKCU+l9iv1J41Y0PM10vxp+OMAytZaRQ==",
+  "dgSpecHash": "pWH8bNXykqDIobwDD55ufs/Qgm1S7WqQkDsQzJUH6YLZC2U44ncrDDW3KMA6W+tNZmejXWpEnJS0cIm36WVapg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\data.csproj",
+  "projectFilePath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

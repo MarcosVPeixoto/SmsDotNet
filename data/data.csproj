@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SmsDotnet.Data</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\entities\entities.csproj" />
+    <ProjectReference Include="..\entities\Entities.csproj" />
   </ItemGroup>
 
 </Project>

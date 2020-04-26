@@ -1,23 +1,19 @@
-﻿
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace entities.models
+namespace SmsDotNet.Entities
 {
     class Story
     {
-        [Key]
-        public int id { get; set; }
-
         [ForeignKey("User")]
-        public int idOwner { get; set; }
-        public UserModel owner { get; set; }
+        public int IdOwner { get; set; }
+        public UserModel Owner { get; set; }
 
         [Required (ErrorMessage = "Campo obrigatório")]
-        public string message { get; set; }
+        public string Message { get; set; }
 
-        public DateTime postDate { get; set; }
+        public DateTime PostDate { get; set; }
 
     }
 }

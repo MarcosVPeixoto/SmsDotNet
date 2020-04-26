@@ -228,14 +228,14 @@
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
       },
-      "entities/1.0.0": {
+      "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/entities.dll": {}
+          "bin/placeholder/Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/entities.dll": {}
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -661,16 +661,16 @@
         "version.txt"
       ]
     },
-    "entities/1.0.0": {
+    "Entities/1.0.0": {
       "type": "project",
-      "path": "../entities/entities.csproj",
-      "msbuildProject": "../entities/entities.csproj"
+      "path": "../entities/Entities.csproj",
+      "msbuildProject": "../entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore.InMemory >= 3.1.3",
-      "entities >= 1.0.0"
+      "Entities >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.InMemory >= 3.1.3"
     ]
   },
   "packageFolders": {
@@ -680,9 +680,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\data.csproj",
-      "projectName": "data",
-      "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\data.csproj",
+      "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj",
       "packagesPath": "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\obj\\",
       "projectStyle": "PackageReference",
@@ -704,8 +704,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\entities.csproj": {
-              "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\entities.csproj"
+            "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj"
             }
           }
         }
