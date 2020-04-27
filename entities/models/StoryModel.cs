@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SmsDotNet.Entities
 {
-    class Story
+    public class StoryModel : AuditModel
     {
         [ForeignKey("User")]
         public int IdOwner { get; set; }

@@ -1,10 +1,8 @@
-﻿
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SmsDotNet.Entities
 {
-    class HistoryPasswordModel
+    public class HistoryPasswordModel : AuditModel
     {        
         [ForeignKey("User")]
         public int IdOwner { get; set; }

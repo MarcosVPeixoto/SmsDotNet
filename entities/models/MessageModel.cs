@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SmsDotNet.Entities
 {
-    class MessageModel
+    public class MessageModel : AuditModel
     {
         [ForeignKey("User")]
         public int IdOwner { get; set; }
@@ -22,7 +22,7 @@ namespace SmsDotNet.Entities
         public DateTime Date { get; set; }
     }
 
-    enum ReadableBy
+    public enum ReadableBy
     {
         all,
         owner,

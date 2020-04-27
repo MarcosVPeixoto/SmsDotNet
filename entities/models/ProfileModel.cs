@@ -1,15 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Dynamic;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SmsDotNet.Entities
 {
-    class ProfileModel
+    public class ProfileModel : AuditModel
     {
         [ForeignKey("User")]
-        public int idOwner { get; set; }
-        public UserModel owner { get; set; }
+        public int IdOwner { get; set; }
+        public UserModel Owner { get; set; }
 
-        public string image { get; set; }
+        public string Image { get; set; }
     }
 }

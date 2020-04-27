@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SmsDotNet.Entities
 {
-    public class UserModel
+    public class UserModel : AuditModel
     {
         [Required(ErrorMessage = "Campo obrigatório")]
         [MaxLength(60, ErrorMessage = "Máximo de 60 caracteres")]
