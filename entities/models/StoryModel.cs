@@ -12,7 +12,6 @@ namespace SmsDotNet.Entities
 
         [Required (ErrorMessage = "Campo obrigatório")]
         public string Message { get; set; }
-
         public DateTime PostDate { get; set; }
 
     }

@@ -5,4 +5,8 @@
     <RootNamespace>SmsDotNet.Repository</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\entities\Entities.csproj" />
+  </ItemGroup>
+
 </Project>

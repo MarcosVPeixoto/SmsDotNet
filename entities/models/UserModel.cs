@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace SmsDotNet.Entities
@@ -21,7 +22,11 @@ namespace SmsDotNet.Entities
 
         [Required (ErrorMessage = "Campo obrigatório")]
         public string Password { get; set; }
-
         public string ImageUrl { get; set; }
+        public List<ContactModel> Contact { get; set; }
+        public List<HistoryPasswordModel> History { get; set; }
+        public List<MessageModel> Message { get; set; }
+        public ProfileModel Profile { get; set; }
+        public StoryModel Story { get; set; }
     }
 }
