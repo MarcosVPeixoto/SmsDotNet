@@ -1,13 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SmsDotNet.Data;
 using SmsDotNet.Entities;
-using SmsDotNet.repository;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace SmsDotNet.Repository.Impl
+namespace SmsDotNet.Repositories.Impl
 {
     public abstract class Repository<T> : IRepository<T> where T : BaseModel
     {
@@ -19,7 +18,7 @@ namespace SmsDotNet.Repository.Impl
             _context = context;
             _models = context.Set<T>();
         }
-        public BaseModel Add(BaseModel Model)
+        public BaseModel Add(BaseModel _model)
         {
             throw new NotImplementedException();
         }
@@ -29,12 +28,12 @@ namespace SmsDotNet.Repository.Impl
             throw new NotImplementedException();
         }
 
-        public Task<BaseModel> AddAsync(BaseModel Model)
+        public Task<BaseModel> AddAsync(BaseModel model)
         {
             throw new NotImplementedException();
         }
 
-        public Task<T> AddAsync(T Model)
+        public Task<T> AddAsync(T model)
         {
             throw new NotImplementedException();
         }
@@ -59,7 +58,12 @@ namespace SmsDotNet.Repository.Impl
             throw new NotImplementedException();
         }
 
-        public void Undelete(int Id)
+        public IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate, bool eager = false)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UnDelete(int Id)
         {
             throw new NotImplementedException();
         }

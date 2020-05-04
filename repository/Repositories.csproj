@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>SmsDotNet.Repository</RootNamespace>
+    <RootNamespace>SmsDotNet.Repositories</RootNamespace>
+    <AssemblyName>Repositories</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

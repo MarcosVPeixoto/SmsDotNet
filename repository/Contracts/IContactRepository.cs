@@ -1,7 +1,7 @@
 ﻿using SmsDotNet.Entities;
-using SmsDotNet.repository;
 
-namespace SmsDotNet.Repository.Contracts
+
+namespace SmsDotNet.Repositories.Contracts
 {
     public interface IContactRepository : IRepository <ContactModel>
     {

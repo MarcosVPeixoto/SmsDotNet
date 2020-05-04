@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>SmsDotNet.Repository.Impl</RootNamespace>
+    <RootNamespace>SmsDotNet.Repositories.Impl</RootNamespace>
+    <AssemblyName>Repositories.Impl</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\data\Data.csproj" />
-    <ProjectReference Include="..\repository\Repository.csproj" />
+    <ProjectReference Include="..\repository\Repositories.csproj" />
   </ItemGroup>
 
 </Project>

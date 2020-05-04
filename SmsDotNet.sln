@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "data\Data.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth", "auth\Auth.csproj", "{AF20D7B6-C133-4497-8AAB-0B33F9B99333}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "repository\Repository.csproj", "{876EF849-F4BD-4E93-A44B-6A8DBFA85FD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "repository\Repositories.csproj", "{876EF849-F4BD-4E93-A44B-6A8DBFA85FD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Impl", "Services.Impl\Services.Impl.csproj", "{816B58F1-9F3B-453E-8743-A6332DCFA71C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Impl", "Services.Impl\Services.Impl.csproj", "{816B58F1-9F3B-453E-8743-A6332DCFA71C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Impl", "Repository.Impl\Repository.Impl.csproj", "{93F9CD66-12FA-4146-9719-4B4833DF106A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Impl", "Repository.Impl\Repositories.Impl.csproj", "{93F9CD66-12FA-4146-9719-4B4833DF106A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

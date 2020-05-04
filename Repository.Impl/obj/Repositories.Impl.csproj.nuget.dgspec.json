@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repository.Impl.csproj": {}
+    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repositories.Impl.csproj": {}
   },
   "projects": {
     "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\data\\Data.csproj": {
@@ -126,12 +126,12 @@
         }
       }
     },
-    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repository.Impl.csproj": {
+    "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repositories.Impl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repository.Impl.csproj",
+        "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repositories.Impl.csproj",
         "projectName": "Repositories.Impl",
-        "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repository.Impl.csproj",
+        "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\Repositories.Impl.csproj",
         "packagesPath": "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Repository.Impl\\obj\\",
         "projectStyle": "PackageReference",

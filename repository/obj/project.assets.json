@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\repository\\Repository.csproj",
-      "projectName": "Repository",
-      "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\repository\\Repositories.csproj",
+      "projectName": "Repositories",
+      "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\repository\\Repositories.csproj",
       "packagesPath": "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\repository\\obj\\",
       "projectStyle": "PackageReference",
