@@ -2,9 +2,45 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exceptions.dll": {}
+        }
+      },
+      "Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.dll": {}
+        }
+      },
       "Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Services.dll": {}
         },
@@ -15,6 +51,21 @@
     }
   },
   "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../entities/Entities.csproj",
+      "msbuildProject": "../entities/Entities.csproj"
+    },
+    "Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../Exceptions/Exceptions.csproj",
+      "msbuildProject": "../Exceptions/Exceptions.csproj"
+    },
+    "Repositories/1.0.0": {
+      "type": "project",
+      "path": "../repository/Repositories.csproj",
+      "msbuildProject": "../repository/Repositories.csproj"
+    },
     "Services/1.0.0": {
       "type": "project",
       "path": "../services/Services.csproj",
@@ -23,6 +74,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Exceptions >= 1.0.0",
+      "Repositories >= 1.0.0",
       "Services >= 1.0.0"
     ]
   },
@@ -57,6 +110,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Exceptions\\Exceptions.csproj": {
+              "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Exceptions\\Exceptions.csproj"
+            },
+            "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\repository\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\repository\\Repositories.csproj"
+            },
             "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\services\\Services.csproj": {
               "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\services\\Services.csproj"
             }

@@ -10,11 +10,13 @@ namespace SmsDotNet.Repositories
 
     {
         T Add(T model);
-        Task<T> AddAsync(T model);
         T Update(T model);
         void Delete(int id);
         void UnDelete(int id);
         IEnumerable<T> FindAll();
-        IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate, bool eager = false);
+        IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate);
+        Task<T> AddAsync(T model);
+        Task <IEnumerable<T>> FindAllAsync();
+        Task <IEnumerable<T>> FindByAsync(Expression<Func<T, bool>> predicate);
     }
 }

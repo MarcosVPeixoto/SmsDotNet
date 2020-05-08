@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entities.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Entities/1.0.0": {
-      "type": "project",
-      "path": "../entities/Entities.csproj",
-      "msbuildProject": "../entities/Entities.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Entities >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\services\\Services.csproj",
-      "projectName": "Services",
-      "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Exceptions\\Exceptions.csproj",
+      "projectName": "Exceptions",
+      "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Exceptions\\Exceptions.csproj",
       "packagesPath": "C:\\Users\\Marcos Vinicius\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\services\\obj\\",
+      "outputPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\Exceptions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -56,11 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Marcos Vinicius\\Documents\\Pitang\\Treinamento ONS\\SmsDotNet\\entities\\Entities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

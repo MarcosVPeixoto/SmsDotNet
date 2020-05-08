@@ -3,6 +3,7 @@ using SmsDotNet.Data;
 using SmsDotNet.Entities;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
@@ -18,69 +19,74 @@ namespace SmsDotNet.Repositories.Impl
             _context = context;
             _models = context.Set<T>();
         }
-        public BaseModel Add(BaseModel _model)
-        {
-            throw new NotImplementedException();
-        }
 
         public T Add(T model)
         {
-            throw new NotImplementedException();
+            _models.Add(model);
+            return model;
         }
 
-        public Task<BaseModel> AddAsync(BaseModel model)
+        public async Task<T> AddAsync(T model)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<T> AddAsync(T model)
-        {
-            throw new NotImplementedException();
+            await _models.AddAsync(model);
+            return model;
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var model = _models.AsQueryable().FirstOrDefault(e => e.Id == id);
+            model.IsDeleted = true;
+            _context.SaveChanges();
         }
 
-        public IEnumerable<BaseModel> FindAll()
+        public IEnumerable<T> FindAll()
         {
-            throw new NotImplementedException();
+            var query = _models.AsQueryable();
+            query = query.Select(e => e);
+            return query.ToList();
         }
 
-        public IEnumerable<BaseModel> FindBy(Expression<Func<BaseModel, bool>> predicate)
+        public async Task<IEnumerable<T>> FindAllAsync()
         {
-            throw new NotImplementedException();
+            var query = _models.AsQueryable();
+            query = query.Select(e => e);
+            return await query.ToListAsync();
         }
 
         public IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate)
         {
-            throw new NotImplementedException();
+            var query = _models.AsQueryable();
+            query = query.Where(predicate);
+            return query.ToList();
         }
 
-        public IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate, bool eager = false)
+        public async Task<IEnumerable<T>> FindByAsync(Expression<Func<T, bool>> predicate)
         {
-            throw new NotImplementedException();
+            var query = _models.AsQueryable();
+            query = query.Where(predicate);
+            return await query.ToListAsync();
         }
 
-        public void UnDelete(int Id)
+        public void UnDelete(int id)
         {
-            throw new NotImplementedException();
-        }
-
-        public BaseModel Update(BaseModel Model)
-        {
-            throw new NotImplementedException();
+            var model = _models.AsQueryable().FirstOrDefault(e => e.Id == id);
+            model.IsDeleted = false;
+            _context.SaveChanges();
         }
 
         public T Update(T model)
         {
-            throw new NotImplementedException();
+            _models.Attach(model).State = EntityState.Modified;
+            _context.SaveChanges();
+            return model;
         }
 
-        IEnumerable<T> IRepository<T>.FindAll()
+        IEnumerable<T> IRepository<T>.FindBy(Expression<Func<T, bool>> predicate)
         {
-            throw new NotImplementedException();
+            var query = _models.AsQueryable();
+            query = query.Where(predicate);
+            return query.ToList();
         }
     }
 }
+        

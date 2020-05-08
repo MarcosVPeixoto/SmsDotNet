@@ -6,6 +6,5 @@ namespace SmsDotNet.Entities
     {
         public DateTime CeatedDate { get; set; }
         public DateTime LastUpdate { get; set; }
-        public bool IsDeleted { get; set; }
     }
 }

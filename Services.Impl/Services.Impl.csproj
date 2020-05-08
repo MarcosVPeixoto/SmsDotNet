@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SmsDotNet.Services.Impl</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Exceptions\Exceptions.csproj" />
+    <ProjectReference Include="..\repository\Repositories.csproj" />
     <ProjectReference Include="..\services\Services.csproj" />
   </ItemGroup>
 
